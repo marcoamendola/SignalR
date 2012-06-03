@@ -5,7 +5,7 @@ using Newtonsoft.Json.Linq;
 
 namespace SignalR.Hubs
 {
-    internal class HubRequestParser : IHubRequestParser
+    public class HubRequestParser : IHubRequestParser
     {
         private static readonly IJsonValue[] _emptyArgs = new IJsonValue[0];
 
